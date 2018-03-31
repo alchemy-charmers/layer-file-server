@@ -1,0 +1,21 @@
+name: file-server
+summary: Wrapper for NFS/SAMBA file server charms
+maintainer: Chris Sanders <sanders.chris@gmail.com>
+description: |
+  This charm installs both layer:nfs-server and layer:samba-server in one charm
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - fileserver
+subordinate: false
+series:
+  - xenial
+# provides:
+#   provides-relation:
+#     interface: interface-name
+# requires:
+#   requires-relation:
+#     interface: interface-name
+# peers:
+#   peer-relation:
+#     interface: interface-name

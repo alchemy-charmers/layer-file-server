@@ -1,0 +1,9 @@
+[submodule "layers/layer-nfs-server"]
+	path = layers/layer-nfs-server
+	url = git@github.com:chris-sanders/layer-nfs-server.git
+[submodule "layers/layer-samba-server"]
+	path = layers/layer-samba-server
+	url = git@github.com:chris-sanders/layer-samba-server.git
+[submodule "layers/layer-version"]
+	path = layers/layer-version
+	url = git@github.com:chris-sanders/layer-version.git
